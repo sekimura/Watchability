@@ -1,6 +1,8 @@
 on run argv
-  tell application "Finder"
+  tell application "iTunes"
+    pause
   end tell
+
 	tell application "Google Chrome"
 		activate
 		set the bounds of the first window to {0, 0, 1920, 1080} -- "to fit HDTV"
